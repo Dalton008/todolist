@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}"/>
+</head>
+<body>
+
+<div>
+    Привет!
+    <p><a th:href="@{/tasks}">Перейти к задачам</a></p>
+    <p><a th:href="@{/registration}">К регистрации</a></p>
+</div>
+</body>
+</html>
